@@ -27,6 +27,7 @@ chicken_sales = lunch_chicken * lunch_chicken_price  # 唐揚げ定食の売上�
 curry_sales = lunch_curry * lunch_curry_price  # カレーセットの売上高
 total_sales = chicken_sales + curry_sales  # 1日の合計売上高
 
+
 # 原価の計算
 chicken_cost = round(chicken_sales * chicken_cost_rate)  # 唐揚げ定食の原価
 curry_cost = round(curry_sales * curry_cost_rate)  # カレーセットの原価
