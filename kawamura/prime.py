@@ -8,9 +8,11 @@ list_1 = []
 
 i = 2
 
+if number_1 == 1:
+    print("not",end="")
+    sys.exit(0)
+
 while i != number or number_1 >= 1000:
-    if number == 1:
-        break
     if number % i == 0:
         number = number / i
         list_1.append(i)
@@ -19,7 +21,7 @@ while i != number or number_1 >= 1000:
 
 list_1.append(i) 
 if number_1 < 1000:
-    if len(list_1) > 1 or number_1 == 1:
+    if len(list_1) > 1:
         print("not",end="")
     elif len(list_1) == 1:
         print("prime",end="")
